@@ -3399,3 +3399,37 @@ a:visited{
     }
 }
 
+
+@media (max-width: 768px) {
+    .testimonial-section .container {
+        padding: 0 1em;
+    }
+    
+    .user-avatar img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .entry-content p {
+        font-size: 1em;
+    }
+    
+    .testimonial-user {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .entry-content p {
+        font-size: 0.9em;
+    }
+    
+    .testimonial-user {
+        font-size: 1em;
+    }
+    
+    .user-avatar img {
+        width: 60px;
+        height: 60px;
+    }
+}
