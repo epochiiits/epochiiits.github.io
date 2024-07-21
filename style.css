@@ -3317,6 +3317,17 @@ a:visited{
 
 
 
+@media (max-width: 768px) {
+    .team-card {
+        flex: 1 1 calc(50% - 40px); /* Adjust the width for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .team-card {
+        flex: 1 1 100%; /* Full width for very small screens */
+    }
+}
 
 
 
@@ -3325,6 +3336,7 @@ a:visited{
     gap:5%;
     border:1px solid grey;
     border-radius:4px;
+     flex: 1 1 calc(33.333% - 40px); /* Adjust the width */
     background-color:white;
   }
   .tm-description{
